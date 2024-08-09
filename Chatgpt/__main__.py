@@ -1,6 +1,6 @@
 import asyncio
 import importlib
-from configg import START_IMG,OWNER_ID
+from Chatgpt.congfig2 import START_IMG,OWNER_ID
 from pyrogram import idle
 from configg import *
 
