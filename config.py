@@ -8,6 +8,9 @@ START_IMG :str = os.environ.get(
     "START_IMG", "https://graph.org/file/d4412c7b411ca8da9e177.jpg"
 )
 
-MONGO_DB_URI= "mongodb+srv://Badmunda_13:badmunda50@cluster0.9oyzqux.mongodb.net/?retryWrites=true&w=majority"
+MONGO_DB_URI :str = os.environ.get(
+    "MONGO_DB_URI",
+    "mongodb+srv://Badmunda_13:badmunda50@cluster0.9oyzqux.mongodb.net/?retryWrites=true&w=majority",
+)
 OWNER_ID :int= os.environ.get("OWNER_ID", 6728038801)
 
