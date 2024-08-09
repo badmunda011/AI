@@ -2,6 +2,7 @@ import asyncio
 import importlib
 from config import START_IMG,OWNER_ID
 from pyrogram import idle
+from config import *
 
 from Chatgpt import LOGGER, Mukesh
 from Chatgpt.modules import ALL_MODULES
